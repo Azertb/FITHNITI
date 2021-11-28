@@ -9,12 +9,14 @@ import { RouterComponent } from './router/router.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     RouterComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

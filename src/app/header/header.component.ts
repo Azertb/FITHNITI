@@ -38,7 +38,7 @@ import { Component, OnInit } from '@angular/core';
           <a class="navbar-item">
             Jobs
           </a>
-          <a class="navbar-item">
+          <a [routerLink]="['/contact']" class="navbar-item">
             Contact
           </a>
           <hr class="navbar-divider">
